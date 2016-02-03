@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chinese Flag</title>
+    <style>
+    .chinese-flag{
+      background: red;
+      width: 864px;
+      height: 576px;
+    }
+    .star{
+      color: rgb(249, 214, 50);
+      display: inline-block;
+      font-size: 60px;
+      position: absolute;
+    }
+    .star:first-child{
+      top: 20px;
+      left: 269px;
+    }
+    .star:nth-child(2){
+      left: 329px;
+      top: 79px;
+      transform: rotate(53deg);
+    }
+    .star:nth-child(3){
+      left: 325px;
+      top: 162px;
+    }
+    .star:nth-child(4){
+      left: 269px;
+      top: 221px;
+      transform: rotate(18deg);
+    }
+    .star:nth-child(5){
+      left: 269px;
+      top: 19px;
+      transform: rotate(18deg);
+    }
+    .star.larger{
+      font-size: 179px;
+      top: 13px;
+      left: 65px;
+    }
+    </style>
+  </head>
+  <body>
+  <div class="chinese-flag">
+    <div class="star larger">&#x2605</div>
+    <div class="star">&#x2605</div>
+    <div class="star">&#x2605</div>
+    <div class="star">&#x2605</div>
+    <div class="star">&#x2605</div>
+  </div>
+
+  </body>
+</html>
